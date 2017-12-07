@@ -13,12 +13,13 @@
 # add game over to every crash and the pepsi and coffee options
 # also maybe add points or a rating to each one
 
-### DONT FORGET TO UPDATE CLEAN SAVE AFTER EVERY MAJOR CHANGE ###
+### DONT FORGET TO UPDATE CLEAN SAVE FILE ###
 
 ### ADD IMPORTS IF NECCESARY ###
 # import random
 # import info
 # import hill
+import time
 
 
 def main():
@@ -40,6 +41,7 @@ def main():
         print("3) Coffee")
         print("3) Leave")
         
+            
     
     print("you and some friends decide to go longboarding\n\nhere are your boards-")
     print_board_menu()
@@ -56,12 +58,19 @@ def main():
     elif board == 5:
         print("\nprogram will self destruct in 5 seconds...\n")
         print("5...")
+        time.sleep(1)
         print("4...")
+        time.sleep(1)
         print("3...")
+        time.sleep(1)
         print("2...")
+        time.sleep(1)
         print("1...")
+        time.sleep(1)
+        # print("5...\n4...\n3...\n2...\n1...")
         print("explosion.wav")
         quit()
+
     # error handling that doesnt work yay
     # elif board > 5:
     #     print("error 420: number too high")
@@ -119,7 +128,7 @@ def main():
                     drink = int(input("what would you like to drink?:   "))
                     
                     if drink == 1:
-                        print("good choice! the gatorade gives you the electrolytes to keep riding\n")
+                        print("good choice! the gatorade gives you energy the electrolytes to keep riding\n")
                         print("Congratulations! you and your friends made it back to the car without crashing!")
                         
                     elif drink == 2: 
