@@ -32,11 +32,7 @@ def main():
         print("\nyou chose to take the Pintail! a good beginner board\n")
     elif board == 5:
         print("\nprogram will self destruct in 5 seconds...\n")
-        print("5...")
-        print("4...")
-        print("3...")
-        print("2...")
-        print("1...")
+        print("5...\n4...\n3...\n2...\n1...")
         print("explosion.wav")
         quit()
 
