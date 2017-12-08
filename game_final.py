@@ -154,3 +154,7 @@ def main():
     
     
 main()
+
+##########
+# still had problems with moving on after the hill function.
+# also had problems with error handling
